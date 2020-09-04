@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+.nav {
+  width: 100%;
+  height: 80px;
+
+}
+
+.menuleft {
+  float: left;
+}
+
+.menuleft img {
+ 
+  height: 50px;
+}
+
+.menuleft ul li {
+  margin: 10px;
+  display: inline;
+}
+
+.menuleft ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+}
+
+.menuright {
+  float: right;
+
+  margin-top: 30px;
+}
+
+.menuright ul li {
+  display: inline;
+  line-height: 10px;
+  margin: 10px;
+}
+
+.menuright ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+}
+
+.menuright ul li button {
+  background: #f77d0e;
+  width: 120px;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+}
+
+.menuright ul li button a {
+  font-weight: 700;
+  color: white;
+}
+
+/* Hero Section */
+
+.hero {
+  width: 100%;
+  height: 700px;
+  border: 1px solid black;
+  background-image: url(./Hero.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content {
+}
+
+.text {
+  text-align: justify;
+  width: 600px;
+  height: 350px;
+
+  margin: 100px;
+}
+.text h1 {
+  color: white;
+  size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.text p {
+  color: white;
+  size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.text button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  size: 20px;
+}
+
+.btn1 {
+  margin: 10px;
+  background: #f77d0e;
+  width: 200px;
+  height: 35px;
+  border: none;
+  display: inline;
+  margin-top: 50px;
+  background: #eb008d;
+  cursor: pointer;
+}
+
+.btn2 {
+  margin: 10px;
+  background: #f77d0e;
+  width: 200px;
+  height: 35px;
+  border: 1px solid white;
+  display: inline;
+  margin-top: 50px;
+  background: transparent;
+  cursor: pointer;
+}
+
+/*  Nedd Some things Section */
+
+.nedd {
+  width: 100%;
+  height: 520px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.nedd h1 {
+  margin: 40px;
+}
+
+.item1 {
+  width: 30%;
+  height: 500px;
+  float: left;
+  text-align: center;
+  margin: 15px;
+  line-height: 25px;
+}
+
+.item1 h3 {
+  margin: 20px;
+}
+
+/* Great about is section  */
+
+.great {
+  width: 100%;
+  height: 520px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.great h1 {
+  margin: 40px;
+}
+
+.great_item1 {
+  width: 30%;
+  height: 250px;
+  float: left;
+  text-align: center;
+  margin: 15px;
+  line-height: 25px;
+}
+
+.great_item1 h3 {
+  margin: 20px;
+}
+
+/* Crowd favorite  */
+
+.fav {
+  width: 100%;
+  height: 800px;
+  text-align: center;
+  margin-top: 20px;
+
+  background: #f7f7f7;
+}
+
+.fav h1 {
+  margin: 40px;
+}
+
+.fav_card1 {
+  width: 30%;
+  height: 280px;
+  float: left;
+  text-align: center;
+  margin: 15px;
+  line-height: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fav_card1 h3 {
+  margin: 20px;
+}
+
+.fav button {
+  padding: 10px;
+  width: 130px;
+  cursor: pointer;
+}
+.fav button a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+/* Work Section */
+
+.work {
+  width: 100%;
+  height: 520px;
+  text-align: center;
+  margin-top: 200px;
+ 
+}
+
+.work h1 {
+  margin: 40px;
+}
+
+.work_card {
+  width: 5.5%;
+  height: 100px;
+  float: left;
+  text-align: center;
+  margin: 15px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.work_card p {
+  margin: 20px;
+}
+
+/* Add Section */
+
+.add {
+  width: 100%;
+  height: 400px;
+  
+  margin-top: 30px;
+}
+
+.add_con {
+}
+
+.card1 {
+  width: 47%;
+  height: 300px;
+  float: left;
+  text-align: center;
+  margin: 15px;
+  line-height: 25px;
+
+  background: #EFEFF0;
+}
+
+.addright {
+  
+  width: 50%;
+  height: 300px;
+  float: left;
+  text-align: center;
+  margin-top: 50px;
+  line-height: 30px;
+}
+
+.addleft {
+
+  width: 50%;
+  height: 300px;
+  float: left;
+}
+
+.card1 img {
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.add_con button{
+    padding: 10px;
+    background: #3289C2;
+    border: none;
+}
+
+.add_con button a{
+    text-decoration: none;
+    color: white;
+
+}
+
+/* Job Catagori  */
+
+.job{
+width: 100%;
+height: 500px;
+
+   
+}
+.job h1{
+    text-align: center;
+}
+
+.joncontent{
+margin-top: 30px;
+
+}
+
+.topjob{
+float: left;
+width: 23%;
+height: 360px;
+
+text-align: justify;
+line-height: 30px;
+margin: 10px;
+padding-left: 30px;
+}
+
+.topjob a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Footer section */
+
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background: #161E2C;
+       
+    }
+    
+    .footContent{
+    margin-top: 30px;
+    
+    }
+    
+    .fot{
+    float: left;
+    width: 23%;
+    height: 360px;
+    
+    text-align: justify;
+    line-height: 30px;
+    margin: 10px;
+    padding-left: 30px;
+    }
+
+    .fot a{
+        color: white;
+        text-decoration: none;
+    }
+
+
+    .fot h4{
+        color: white;
+    }
+    
+    #copy_right{
+        color: white;
+        text-align: center;
+    }
